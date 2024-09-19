@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1480px;
+    height: 300px;
+    flex-basis: 20%;
+    justify-content: space-between;
+}
+
+.header h3{
+    margin:10px 200px;
+}
+.right-header{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #979da5;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+   
+
+
+
+
