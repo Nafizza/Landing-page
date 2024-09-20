@@ -12,7 +12,7 @@
     font-size: 20px;
     font-weight: 500;
     width: 1480px;
-    height: 300px;
+    height: 150px;
     flex-basis: 20%;
     justify-content: space-between;
 }
@@ -23,18 +23,69 @@
 .right-header{
     display:flex;
     flex-direction: row;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 30px;
+    justify-content: space-around;
     justify-content: center;
     font-family:'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     color: #979da5;
     margin-right: 200px;
     margin-top: 10px;
 }
-   
 
+.header-content{
+    display: flex;
+    background-color: #1F2937;
+    width: 1500px;
+    height: 350px;
+    gap:70px;
+}
+
+.header-text{
+    color: rgba(253, 253, 253, 0.939);
+    margin-left: 200px;
+    width:415px;
+    padding:0;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-text p{
+    color: #fbfbfb95;
+    padding: 3px;
+    font-size: 17px;
+}
+
+.header-text, .header-text p{
+    display: inline-block;
+}
+
+.signup-button button{
+    background-color: rgb(50, 102, 192);
+    color: white;
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+   /* margin-left: 10px; */
+    
+}
+
+.header-img{
+    background-color: #979da5;
+    width: 620px;
+    height:220px;
+    color:rgba(253, 253, 253, 0.939)
+}
+
+.header-img p{
+    padding: 100px 180px;
+    text-indent: 10px;
+    
+    
+}
 
 
 
